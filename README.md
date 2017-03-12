@@ -1,12 +1,12 @@
-# [Jove V4.0](https://telegram.me/JoveTG)
+# [+Mod V2.0](https://telegram.me/Plus_Mod)
 
 | Bot Name | Description | Powered By | Team name |
 |:--------|:------------|:------------|:------------|
 | Jove | Cli Anti Spam bot version 4.0 | Pouya Poorrahman | Titan Zeus |
 
-[![https://gitter.im/PouyaPoorrahman/Jove](https://badges.gitter.im/PouyaPoorrahman/Jove.svg)](https://gitter.im/PouyaPoorrahman/Jove?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![https://gitter.im/dany-sj/Plus_Mod](https://badges.gitter.im/dany-sj/Plus_Mod.svg)](https://gitter.im/dany-sj/Plus_Mod?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-**An advanced and powerful administration bot based on [yagop/telegram-bot](https://github.com/yagop/telegram-bot) licensed under the [GNU Affero General Public License](https://github.com/SEEDTEAM/TeleSeed/blob/master/LICENSE)**.
+**An advanced and powerful administration bot based on [+Mod/telegram-bot](https://github.com/dany-sj/Plus_Mod) licensed under the [GNU Affero General Public License](https://github.com/dany-sj/Plus_Mod/blob/master/LICENSE)**.
 # Features
 
 * **A powerful antispam system with custom sensitivity for each group**
@@ -49,14 +49,14 @@
 * * *
 
 ## Commands
-Jove has several commands that are only usable at certain ranks.
++Mod has several commands that are only usable at certain ranks.
 
 
 ## General Commands {#general_commands}
 | Command | Description |
 |:--------|:------------|
 | [#!/]id | Returns group/SuperGroup ID & more or user id in pm. |
-| [#!/]jove | Returns bot information. |
+| [#!/]plusmod | Returns bot information. |
 
 
 ## Private Message Commands {#privmsg_commands}
@@ -254,8 +254,8 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 
 # Let's install the bot.
 cd $HOME
-git clone https://github.com/PouyaPoorrahman/jove.git -b supergroups
-cd jove
+git clone https://github.com/dany-sj/Plus_Mod.git -b supergroups
+cd Plus_Mod
 chmod +x launch.sh
 ./launch.sh install
 ./launch.sh # Enter a phone number & confirmation code.
@@ -263,8 +263,8 @@ chmod +x launch.sh
 ### One command
 To install everything in one command (useful for VPS deployment) on Debian-based distros, use:
 ```sh
-#https://github.com/yagop/telegram-bot/wiki/Installation
-sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev libjansson* libpython-dev make unzip git redis-server g++ autoconf -y --force-yes && git clone https://github.com/PouyaPoorrahman/jove.git -b supergroups && cd jove && chmod +x launch.sh && ./launch.sh install && ./launch.sh
+#https://github.com/dany-sj/Plus_Mod/wiki/Installation
+sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev libjansson* libpython-dev make unzip git redis-server g++ autoconf -y --force-yes && git clone https://github.com/dany-sj/Plus_Mod.git -b supergroups && cd Plus_Mod && chmod +x launch.sh && ./launch.sh install && ./launch.sh
 ```
 
 * * *
